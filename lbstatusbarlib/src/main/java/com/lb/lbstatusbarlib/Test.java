@@ -7,4 +7,7 @@ public class Test {
     public static int addInt(int a,int b){
         return a+b;
     }
+    public static double addDouble(double a,double b){
+        return a+b;
+    }
 }
