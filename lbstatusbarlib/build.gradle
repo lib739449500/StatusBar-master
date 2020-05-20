@@ -28,5 +28,10 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.0.2'
 }
 
+//上传库到jitpack和jenter需要加
 apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.lib739449500'
+
+//上传库到jenter还需要加下面的
+apply plugin: 'com.jfrog.bintray'
+
